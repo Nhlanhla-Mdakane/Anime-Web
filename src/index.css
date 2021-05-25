@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Train+One&display=swap');
+/* width */
+ ::-webkit-scrollbar {
+     width: 10px;
+}
+/* Track */
+ ::-webkit-scrollbar-track {
+     background: #f1f1f1;
+}
+/* Handle */
+ ::-webkit-scrollbar-thumb {
+     background: #888;
+}
+/* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+ body{
+     scroll-behavior: smooth;
+     margin: 0 auto;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     background-color: white;
+     font-family: 'Source Sans Pro', sans-serif;
+     ;
+}
+ .headerTitle{
+     background: white;
+     color: black;
+     font-size: 2rem;
+     font-family: 'Train One', cursive;
+     font-style: italic;
+}
+ .headerBack{
+     width: 80%;
+     background-color: black;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 auto;
+}
+ .imgDiv{
+     background-color: black;
+}
+ .headerBack img{
+     width: 15%;
+     border-style: double;
+     border-color: white;
+}
+ #navDiv{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: black;
+     top: 0;
+}
+ #navDiv li{
+     display: inline;
+     font-size: 1.2rem;
+     margin: 0 0.5rem;
+     text-decoration: none;
+     color: white;
+}
+ #navDiv ul{
+     text-decoration: none;
+     text-align: center;
+}
+ a{
+     text-decoration: none;
+     color: white;
+}
+ a:visited{
+     color: white;
+     text-decoration: none;
+}
+ a:hover{
+     font-weight: bolder;
+}
+ #genreTab{
+     background-color: white;
+     margin:1rem;
+     width: 100%;
+}
+ .searchButton {
+     margin-left: 0.5rem;
+}
+ #buttons{
+     margin-left: 0.75rem;
+}
+ #genreSearch{
+     margin-top: 1rem;
+}
+ #genreTab{
+     width: 90%;
+     margin: 0 auto;
+}
+ .animeInfo{
+     background-color: white;
+     width:70%;
+     margin-left: auto;
+     margin-right: auto;
+}
+ .info{
+     margin-left: auto;
+     margin-right: auto;
+     width: 15rem;
+}
+ .info p{
+     text-align: left;
+}
+ .animeClass{
+     display: flex;
+     flex-direction:row ;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-evenly;
+     max-width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+}
+ .anime{
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 0.85rem;
+     margin-bottom: 1rem;
+     width: 42%;
+     height: 45rem;
+     background-color: white;
+     border-radius: 0.5%;
+     border-style: double;
+     border-color: black;
+     color:black;
+}
+ .anime img{
+     width: 80%;
+     border-radius: 0.25rem;
+     border-style: solid;
+     border-color: black;
+}
+ #view{
+     margin-bottom: 1rem;
+     font-weight: bolder;
+     border-radius: 5%;
+     font-size: 1rem;
+     background-image: url("https://images.unsplash.com/photo-1549490316-686f9b5d359f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzN8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60");
+     background-size: 100% 100%;
+}
+ #searchForms{
+     margin-top: 4rem;
+     margin-bottom: 3rem;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+ #searchForms button{
+     background-color: black;
+     color: white;
+     font-size: 1.25rem;
+     border-radius: 5%;
+}
+ #searchForms button:hover{
+     background-color: #363636;
+     color: white;
+     border-radius: 5%;
+}
+ #searchForms label{
+     font-weight: bolder;
+     font-size: 1.25rem;
+}
+ #inputSearch input{
+     margin-top: 1rem;
+     font-size: 1.25rem;
+     border-style: solid;
+     border-color: black;
+}
+ #addButton{
+     background-color: #53f599;
+     border-radius: 4%;
+     font-weight: bold;
+}
+ #deleteButton{
+     margin-bottom: 1rem;
+     font-weight: bolder;
+     border-radius: 5%;
+     font-size: 1rem;
+     background-color: #ff4747;
+}
+ #deleteButton:hover{
+     background-color: #e00000;
+}
+ .animePage{
+     display: flex;
+     margin-left: auto;
+     width: 95%;
+     margin-right: auto;
+}
+ .animeLeft{
+     margin-left: auto;
+     margin-right: auto;
+}
+ .animeRight{
+     width: 60%;
+     margin-left: auto;
+     margin-right: auto;
+}
+ .animePage p{
+     font-size: 1.25rem;
+     line-height: 1.75rem;
+}
+ #rating{
+     border-style: solid;
+     border-radius: 7%;
+     background-image: url("https://images.unsplash.com/photo-1557682268-e3955ed5d83f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjQxfHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+     background-size: 100% 100%;
+     width: 3rem;
+     height: 1.75rem;
+     padding-top: 0.25em;
+     margin-left: auto;
+     margin-right: auto;
+}
+ .aboutDiv img{
+     margin-top: 2rem;
+     border-style: ridge;
+     border-color: black;
+     width: 50%;
+}
+ .aboutDiv p{
+     font-size: 1rem;
+     font-weight: 600;
+     width: 70%;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 1rem;
+}
+ @media (max-width:600px) {
+     #navDiv ul{
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         padding: 0;
+    }
+     .animePage{
+         display: flex;
+         flex-direction: column;
+    }
+     .animeRight{
+         width: 90%;
+    }
+     .headerBack img{
+         width: 23%;
+    }
+     .animeClass{
+         display: flex;
+         flex-direction:row;
+         align-items: center;
+         justify-content: space-evenly;
+         max-width: 100%;
+    }
+     .anime{
+         font-size: 0.85rem;
+         margin-bottom: 1rem;
+         width: 80%;
+    }
+     .anime img{
+         width: 80%;
+    }
+     .aboutDiv img{
+         width: 65%;
+    }
+     .aboutDiv p{
+         font-size: 1rem;
+         font-weight: 400;
+         width: 70%;
+    }
+}
+ @media (min-width: 1085px) {
+     #navDiv{
+         position: sticky;
+    }
+     .anime{
+         max-height: 60rem;
+         font-size: 0.85rem;
+         margin-bottom: 1rem;
+         width: 30%;
+    }
+     .anime img{
+         width: 80%;
+    }
+}
+ 
