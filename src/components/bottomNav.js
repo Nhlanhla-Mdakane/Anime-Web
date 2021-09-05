@@ -6,7 +6,7 @@ class BottomNav extends React.Component {
   render() {
     return (
       <div id="bottomDiv">
-        <h4>Copyright © 2021, Nhlanhla Mdakane</h4>
+        <h4></h4>
       </div>
     );
   }
